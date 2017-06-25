@@ -1,0 +1,10 @@
+Date Created    : 06/24/2017
+Version   		: 1.0.0
+Owner      		: Osanda Deshan
+Description  	: This is a concept file which follows markdown syntax.
+
+
+# Validate that the user login by using the valid email address and password
+
+* Navigate to login page
+* Login using the email and password
