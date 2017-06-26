@@ -8489,3 +8489,208 @@ Total time taken: 42.77s
 18:31:22.379 
 Total time taken: 42.297s
 18:31:22.379 Updates are available. Run gauge --check-updates for more info.
+10:16:36.980 Checking updates...
+10:17:26.992 # Update time records Specification
+10:17:26.994 ## Update time records Scenario
+10:17:26.996 * Validate that the user login by using the valid email address and password
+10:17:26.997 * Navigate to login page
+10:17:33.637 * Login using the email and password
+10:17:35.395 * Adding a new task for the project
+10:17:35.395 * Expand projects section
+10:17:41.125 * Go to Project Tasks
+10:17:43.259 * Create a new Task
+10:17:45.021 
+Failed Step: Create a new Task
+10:17:45.022 Specification: specs\specifications\Update time records.spec
+10:17:45.022 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='New Task']"}
+  (Session info: chrome=59.0.3071.104)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\Osanda\AppData\Local\Temp\scoped_dir7292_16391}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.104, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9dc11b14d37bccd0f82e035d2cd6caa1
+*** Element info: {Using=xpath, value=//a[@title='New Task']}
+10:17:45.022 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+com.sun.proxy.$Proxy3.click(Unknown Source)
+pages.NewTaskPage.createNewTask(NewTaskPage.java:32)
+stepImpl.NewTaskStepImpl.createNewTask(NewTaskStepImpl.java:21)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:17:46.874 Plugin [Html Report] with pid [27084] has exited
+10:17:47.684 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:17:47.684 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+10:17:47.684 
+Total time taken: 46.941s
+10:17:47.684 Updates are available. Run gauge --check-updates for more info.
+10:24:16.993 Checking updates...
+10:24:35.168 # Update time records Specification
+10:24:35.170 ## Update time records Scenario
+10:24:35.173 * Validate that the user login by using the valid email address and password
+10:24:35.173 * Navigate to login page
+10:24:40.957 * Login using the email and password
+10:24:41.675 * Adding a new task for the project
+10:24:41.675 * Expand projects section
+10:24:46.159 * Go to Project Tasks
+10:24:48.634 
+Failed Step: Go to Project Tasks
+10:24:48.634 Specification: specs\specifications\Update time records.spec
+10:24:48.634 Error Message: java.lang.NullPointerException
+10:24:48.634 Stacktrace: 
+org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+com.sun.proxy.$Proxy3.click(Unknown Source)
+pages.ProjectsPage.goToProjectTasks(ProjectsPage.java:31)
+stepImpl.ProjectsStepImpl.goToProjectTasks(ProjectsStepImpl.java:26)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:24:49.253 Plugin [Html Report] with pid [27404] has exited
+10:24:50.057 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:24:50.057 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+10:24:50.057 
+Total time taken: 25.79s
+10:24:50.057 Updates are available. Run gauge --check-updates for more info.
+10:25:24.236 Checking updates...
+10:25:37.637 # Update time records Specification
+10:25:37.638 ## Update time records Scenario
+10:25:37.642 * Validate that the user login by using the valid email address and password
+10:25:37.642 * Navigate to login page
+10:25:41.903 * Login using the email and password
+10:25:42.389 * Adding a new task for the project
+10:25:42.389 * Expand projects section
+10:25:46.975 * Go to Project Tasks
+10:25:49.488 
+Failed Step: Go to Project Tasks
+10:25:49.488 Specification: specs\specifications\Update time records.spec
+10:25:49.488 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()[contains(., 'Go to the Project')]]"}
+  (Session info: chrome=59.0.3071.104)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\Osanda\AppData\Local\Temp\scoped_dir31856_10581}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.104, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: cbd569b8d551884fb7d0b52ca4d51285
+*** Element info: {Using=xpath, value=//span[text()[contains(., 'Go to the Project')]]}
+10:25:49.488 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+com.sun.proxy.$Proxy3.click(Unknown Source)
+pages.ProjectsPage.goToProjectTasks(ProjectsPage.java:35)
+stepImpl.ProjectsStepImpl.goToProjectTasks(ProjectsStepImpl.java:26)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:25:50.143 Plugin [Html Report] with pid [20924] has exited
+10:25:50.946 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:25:50.946 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+10:25:50.947 
+Total time taken: 19.614s
+10:25:50.947 Updates are available. Run gauge --check-updates for more info.
+10:26:29.547 Checking updates...
+10:26:41.800 # Update time records Specification
+10:26:41.801 ## Update time records Scenario
+10:26:41.804 * Validate that the user login by using the valid email address and password
+10:26:41.805 * Navigate to login page
+10:26:45.990 * Login using the email and password
+10:26:46.491 * Adding a new task for the project
+10:26:46.491 * Expand projects section
+10:26:50.997 * Go to Project Tasks
+10:26:56.419 * Create a new Task
+10:27:01.916 * Navigate to add time records for the task
+10:27:03.829 * Update time records for the date with worked hours and the summary from the following table <table: /resources/TimeRecords.csv>
+10:27:15.968 Plugin [Html Report] with pid [25056] has exited
+10:27:16.773 Specifications:	1 executed	1 passed	0 failed	0 skipped
+10:27:16.773 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+10:27:16.773 
+Total time taken: 40.621s
+10:27:16.773 Updates are available. Run gauge --check-updates for more info.
+10:28:18.191 Checking updates...
+10:28:32.647 # Update time records Specification
+10:28:32.649 ## Update time records Scenario
+10:28:32.652 * Validate that the user login by using the valid email address and password
+10:28:32.652 * Navigate to login page
+10:28:38.034 * Login using the email and password
+10:28:38.624 * Adding a new task for the project
+10:28:38.624 * Expand projects section
+10:28:43.621 * Go to Project Tasks
+10:28:49.594 * Create a new Task
+10:28:54.607 * Navigate to add time records for the task
+10:28:56.560 * Update time records for the date with worked hours and the summary from the following table <table: /resources/TimeRecords.csv>
+10:29:06.487 Plugin [Html Report] with pid [35676] has exited
+10:29:07.695 Specifications:	1 executed	1 passed	0 failed	0 skipped
+10:29:07.695 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+10:29:07.695 
+Total time taken: 42.189s
+10:29:07.695 Updates are available. Run gauge --check-updates for more info.

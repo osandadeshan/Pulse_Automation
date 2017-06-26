@@ -3637,3 +3637,136 @@ ueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Sign in wi
 18:30:39.209 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to add time records for the task" parameterizedStepValue:"Navigate to add time records for the task" > > 
 18:30:39.210 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login using the email and password" > 
 18:30:39.210 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login using the email and password" parameterizedStepValue:"Login using the email and password" > > 
+10:04:34.226 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+10:04:34.437 Watching directory: C:\Users\Osanda\IdeaProjects\Pulse_Automation\specs
+10:04:34.438 Found 2 files
+10:04:34.438 Watching directory: C:\Users\Osanda\IdeaProjects\Pulse_Automation\specs\concepts
+10:04:34.438 Found 2 files
+10:04:34.438 Watching directory: C:\Users\Osanda\IdeaProjects\Pulse_Automation\specs\specifications
+10:04:34.439 Found 3 files
+10:04:34.760 Initializing concepts cache with 2 concepts
+10:04:34.760 Adding concepts from C:\Users\Osanda\IdeaProjects\Pulse_Automation\specs\concepts\Create a new task.cpt
+10:04:34.760 Adding concepts from C:\Users\Osanda\IdeaProjects\Pulse_Automation\specs\concepts\Login.cpt
+10:04:34.796 Initializing specs cache with 3 specs
+10:04:34.796 Adding specs from C:\Users\Osanda\IdeaProjects\Pulse_Automation\specs\specifications\Add a new task.spec
+10:04:34.796 Adding specs from C:\Users\Osanda\IdeaProjects\Pulse_Automation\specs\specifications\LoginSpec.spec
+10:04:34.796 Adding specs from C:\Users\Osanda\IdeaProjects\Pulse_Automation\specs\specifications\Update time records.spec
+10:04:34.796 Initializing steps cache with 5 steps
+10:13:58.865 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the user login by using the valid email address and password" > 
+10:13:58.865 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the user login by using the valid email address and password" parameterizedStepValue:"Validate that the user login by using the valid email address and password" > > 
+10:13:58.867 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Create a new Task" > 
+10:13:58.868 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Create a new Task" parameterizedStepValue:"Create a new Task" > > 
+10:13:58.889 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Adding a new task for the project" > 
+10:13:58.890 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Adding a new task for the project" parameterizedStepValue:"Adding a new task for the project" > > 
+10:13:58.890 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Adding a new task for the project" > 
+10:13:58.891 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Adding a new task for the project" parameterizedStepValue:"Adding a new task for the project" > > 
+10:13:58.892 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Update time records for the date with worked hours and the summary from the following table <table: /resources/TimeRecords.csv>" > 
+10:13:58.892 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Update time records for the date with worked hours and the summary from the following table {}" parameterizedStepValue:"Update time records for the date with worked hours and the summary from the following table <table: /resources/TimeRecords.csv>" parameters:"table: /resources/TimeRecords.csv" > > 
+10:13:58.892 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Update time records for the date with worked hours and the summary from the following table <table: /resources/TimeRecords.csv>" > 
+10:13:58.892 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Update time records for the date with worked hours and the summary from the following table {}" parameterizedStepValue:"Update time records for the date with worked hours and the summary from the following table <table: /resources/TimeRecords.csv>" parameters:"table: /resources/TimeRecords.csv" > > 
+10:13:58.893 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to add time records for the task" > 
+10:13:58.894 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to add time records for the task" parameterizedStepValue:"Navigate to add time records for the task" > > 
+10:13:58.894 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to add time records for the task" > 
+10:13:58.894 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to add time records for the task" parameterizedStepValue:"Navigate to add time records for the task" > > 
+10:13:58.899 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Login using the email and password" > 
+10:13:58.900 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Login using the email and password" parameterizedStepValue:"* Login using the email and password" > > 
+10:13:58.900 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Login using the email and password" > 
+10:13:58.901 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Login using the email and password" parameterizedStepValue:"* Login using the email and password" > > 
+10:13:58.901 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Navigate to login page" > 
+10:13:58.902 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Navigate to login page" parameterizedStepValue:"* Navigate to login page" > > 
+10:13:58.905 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Navigate to login page" > 
+10:13:58.905 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Navigate to login page" parameterizedStepValue:"* Navigate to login page" > > 
+10:13:58.905 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Expand projects section" > 
+10:13:58.905 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Expand projects section" parameterizedStepValue:"* Expand projects section" > > 
+10:13:58.906 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Create a new Task" > 
+10:13:58.906 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Create a new Task" parameterizedStepValue:"* Create a new Task" > > 
+10:13:58.907 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Create a new Task" > 
+10:13:58.907 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Create a new Task" parameterizedStepValue:"* Create a new Task" > > 
+10:13:58.907 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Go to Project Tasks" > 
+10:13:58.907 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Go to Project Tasks" parameterizedStepValue:"* Go to Project Tasks" > > 
+10:13:58.943 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Go to Project Tasks" > 
+10:13:58.943 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Go to Project Tasks" parameterizedStepValue:"* Go to Project Tasks" > > 
+10:15:47.878 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Expand projects section" > 
+10:15:47.878 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Expand projects section" parameterizedStepValue:"Expand projects section" > > 
+10:15:47.879 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Project Tasks" > 
+10:15:47.879 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Project Tasks" parameterizedStepValue:"Go to Project Tasks" > > 
+10:15:47.879 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to login page" > 
+10:15:47.879 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to login page" parameterizedStepValue:"Navigate to login page" > > 
+10:15:47.880 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login using the email and password" > 
+10:15:47.880 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login using the email and password" parameterizedStepValue:"Login using the email and password" > > 
+10:15:47.881 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Update time records for the date with worked hours and the summary from the following table <table>" > 
+10:15:47.881 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Update time records for the date with worked hours and the summary from the following table {}" parameterizedStepValue:"Update time records for the date with worked hours and the summary from the following table <table>" parameters:"table" > > 
+10:15:49.434 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:" Adding a new task for the project" > 
+10:15:49.434 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Adding a new task for the project" parameterizedStepValue:"Adding a new task for the project" > > 
+10:15:49.439 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:" Validate that the user login by using the valid email address and password" > 
+10:15:49.439 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the user login by using the valid email address and password" parameterizedStepValue:"Validate that the user login by using the valid email address and password" > > 
+10:16:59.390 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to login page" > 
+10:16:59.391 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to login page" parameterizedStepValue:"Navigate to login page" > > 
+10:16:59.403 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Create a new Task" > 
+10:16:59.403 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Create a new Task" parameterizedStepValue:"Create a new Task" > > 
+10:16:59.404 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Expand projects section" > 
+10:16:59.405 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Expand projects section" parameterizedStepValue:"Expand projects section" > > 
+10:16:59.406 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Update time records for the date with worked hours and the summary from the following table <table>" > 
+10:16:59.406 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Update time records for the date with worked hours and the summary from the following table {}" parameterizedStepValue:"Update time records for the date with worked hours and the summary from the following table <table>" parameters:"table" > > 
+10:16:59.408 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Project Tasks" > 
+10:16:59.409 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Project Tasks" parameterizedStepValue:"Go to Project Tasks" > > 
+10:16:59.410 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to add time records for the task" > 
+10:16:59.410 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to add time records for the task" parameterizedStepValue:"Navigate to add time records for the task" > > 
+10:16:59.411 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login using the email and password" > 
+10:16:59.411 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login using the email and password" parameterizedStepValue:"Login using the email and password" > > 
+10:24:23.263 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to login page" > 
+10:24:23.263 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to login page" parameterizedStepValue:"Navigate to login page" > > 
+10:24:23.274 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Create a new Task" > 
+10:24:23.274 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Create a new Task" parameterizedStepValue:"Create a new Task" > > 
+10:24:23.275 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Expand projects section" > 
+10:24:23.275 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Expand projects section" parameterizedStepValue:"Expand projects section" > > 
+10:24:23.276 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Update time records for the date with worked hours and the summary from the following table <table>" > 
+10:24:23.276 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Update time records for the date with worked hours and the summary from the following table {}" parameterizedStepValue:"Update time records for the date with worked hours and the summary from the following table <table>" parameters:"table" > > 
+10:24:23.278 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Project Tasks" > 
+10:24:23.278 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Project Tasks" parameterizedStepValue:"Go to Project Tasks" > > 
+10:24:23.278 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to add time records for the task" > 
+10:24:23.278 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to add time records for the task" parameterizedStepValue:"Navigate to add time records for the task" > > 
+10:24:23.279 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login using the email and password" > 
+10:24:23.279 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login using the email and password" parameterizedStepValue:"Login using the email and password" > > 
+10:25:30.332 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to login page" > 
+10:25:30.333 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to login page" parameterizedStepValue:"Navigate to login page" > > 
+10:25:30.343 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Create a new Task" > 
+10:25:30.343 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Create a new Task" parameterizedStepValue:"Create a new Task" > > 
+10:25:30.344 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Expand projects section" > 
+10:25:30.344 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Expand projects section" parameterizedStepValue:"Expand projects section" > > 
+10:25:30.345 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Update time records for the date with worked hours and the summary from the following table <table>" > 
+10:25:30.345 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Update time records for the date with worked hours and the summary from the following table {}" parameterizedStepValue:"Update time records for the date with worked hours and the summary from the following table <table>" parameters:"table" > > 
+10:25:30.347 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Project Tasks" > 
+10:25:30.347 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Project Tasks" parameterizedStepValue:"Go to Project Tasks" > > 
+10:25:30.347 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to add time records for the task" > 
+10:25:30.347 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to add time records for the task" parameterizedStepValue:"Navigate to add time records for the task" > > 
+10:25:30.348 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login using the email and password" > 
+10:25:30.348 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login using the email and password" parameterizedStepValue:"Login using the email and password" > > 
+10:26:35.146 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to login page" > 
+10:26:35.149 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to login page" parameterizedStepValue:"Navigate to login page" > > 
+10:26:35.159 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Create a new Task" > 
+10:26:35.159 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Create a new Task" parameterizedStepValue:"Create a new Task" > > 
+10:26:35.160 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Expand projects section" > 
+10:26:35.160 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Expand projects section" parameterizedStepValue:"Expand projects section" > > 
+10:26:35.160 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Update time records for the date with worked hours and the summary from the following table <table>" > 
+10:26:35.160 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Update time records for the date with worked hours and the summary from the following table {}" parameterizedStepValue:"Update time records for the date with worked hours and the summary from the following table <table>" parameters:"table" > > 
+10:26:35.162 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Project Tasks" > 
+10:26:35.162 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Project Tasks" parameterizedStepValue:"Go to Project Tasks" > > 
+10:26:35.163 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to add time records for the task" > 
+10:26:35.163 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to add time records for the task" parameterizedStepValue:"Navigate to add time records for the task" > > 
+10:26:35.163 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login using the email and password" > 
+10:26:35.163 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login using the email and password" parameterizedStepValue:"Login using the email and password" > > 
+10:28:24.113 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to login page" > 
+10:28:24.114 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to login page" parameterizedStepValue:"Navigate to login page" > > 
+10:28:24.125 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Create a new Task" > 
+10:28:24.125 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Create a new Task" parameterizedStepValue:"Create a new Task" > > 
+10:28:24.126 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Expand projects section" > 
+10:28:24.126 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Expand projects section" parameterizedStepValue:"Expand projects section" > > 
+10:28:24.126 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Update time records for the date with worked hours and the summary from the following table <table>" > 
+10:28:24.126 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Update time records for the date with worked hours and the summary from the following table {}" parameterizedStepValue:"Update time records for the date with worked hours and the summary from the following table <table>" parameters:"table" > > 
+10:28:24.128 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Project Tasks" > 
+10:28:24.128 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Project Tasks" parameterizedStepValue:"Go to Project Tasks" > > 
+10:28:24.129 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to add time records for the task" > 
+10:28:24.129 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to add time records for the task" parameterizedStepValue:"Navigate to add time records for the task" > > 
+10:28:24.129 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login using the email and password" > 
+10:28:24.129 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login using the email and password" parameterizedStepValue:"Login using the email and password" > > 
