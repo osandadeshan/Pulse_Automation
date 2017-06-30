@@ -16,11 +16,15 @@ import static stepImpl.DriverFactory.driver;
 
 public class ProjectsPage extends BasePage {
 
+    private WebDriver driver = DriverFactory.driver;
+    public static String ProjectsPageUrl = URL.concat("?path_info=projects");
+
+    public ProjectsPage() {
+        PageFactory.initElements(driver, this);
+    }
+
     @FindBy(xpath = "//span[text()[contains(., 'Go to the Project')]]")
     WebElement GO_TO_PROJECT_BUTTON;
-
-    public static String ProjectsPageUrl = URL.concat("?path_info=projects");
-    WebDriver driver = DriverFactory.driver;
 
     public void goToProjects() throws InterruptedException {
         waitSeconds(2);
@@ -29,7 +33,6 @@ public class ProjectsPage extends BasePage {
 
     public void goToProjectTasks(String projectName) throws InterruptedException {
         waitSeconds(2);
-        PageFactory.initElements(driver, this);
         WebElement PROJECT_NAME = driver.findElement(By.xpath("//table/tbody/tr[td//text()[contains(., '" + projectName + "')]]"));
         PROJECT_NAME.click();
         waitForElementClickable(GO_TO_PROJECT_BUTTON);

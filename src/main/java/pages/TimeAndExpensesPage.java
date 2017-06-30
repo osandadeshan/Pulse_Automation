@@ -2,10 +2,13 @@ package pages;
 
 import com.thoughtworks.gauge.Gauge;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import stepImpl.DriverFactory;
+
 import static stepImpl.DriverFactory.driver;
 
 /**
@@ -14,6 +17,12 @@ import static stepImpl.DriverFactory.driver;
 
 
 public class TimeAndExpensesPage extends BasePage {
+
+    private WebDriver driver = DriverFactory.driver;
+
+    public TimeAndExpensesPage() {
+        PageFactory.initElements(driver, this);
+    }
 
     @FindBy(xpath = "//a[@title='Time and Expenses']")
     WebElement NEW_TIME_UPDATE;
@@ -29,7 +38,6 @@ public class TimeAndExpensesPage extends BasePage {
     WebElement ADD_BUTTON;
 
     public void navigateToUpdateTimeRecords(String taskName){
-        PageFactory.initElements(driver, this);
         WebElement TASK_NAME = driver.findElement(By.xpath("//table/tbody/tr[td//text() = '" + taskName + "']"));
         TASK_NAME.click();
         TASK_NAME.click();
@@ -38,7 +46,6 @@ public class TimeAndExpensesPage extends BasePage {
     }
 
     public void createNewTimeRecord(String date, String hours, String summary) throws InterruptedException {
-        PageFactory.initElements(driver, this);
         waitForElementClickable(DATE);
         DATE.click();
         DATE.clear();

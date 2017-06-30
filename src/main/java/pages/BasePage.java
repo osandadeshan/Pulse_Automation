@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.support.PageFactory;
 import stepImpl.DriverFactory;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
@@ -13,14 +14,19 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 public abstract class BasePage {
 
     protected static String URL = System.getenv("APP_ENDPOINT");
+    private WebDriver driver = DriverFactory.driver;
+
+    public BasePage() {
+        PageFactory.initElements(driver, this);
+    }
 
     public void waitForElementClickable(WebElement element){
-        WebDriverWait wait = new WebDriverWait(DriverFactory.driver, 30);
+        WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
     public void waitForElementVisible(WebElement element){
-        WebDriverWait wait = new WebDriverWait(DriverFactory.driver, 15);
+        WebDriverWait wait = new WebDriverWait(driver, 15);
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 

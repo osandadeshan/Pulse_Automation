@@ -1,7 +1,9 @@
 package pages;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import stepImpl.DriverFactory;
 
 /**
@@ -12,6 +14,11 @@ import stepImpl.DriverFactory;
 public class LoginPage extends BasePage {
 
     public static String LoginPageUrl = URL.concat("index.php");
+    private WebDriver driver = DriverFactory.driver;
+
+    public LoginPage() {
+        PageFactory.initElements(driver, this);
+    }
 
     @FindBy(xpath = "//input[@placeholder='Email Address']")
     WebElement EMAIL_ADDRESS;
@@ -21,7 +28,7 @@ public class LoginPage extends BasePage {
     WebElement SIGN_IN_BUTTON;
 
     public void navigateToLogin(){
-        DriverFactory.driver.get(LoginPageUrl);
+        driver.get(LoginPageUrl);
     }
 
     public void login(String email, String password){

@@ -4,6 +4,7 @@ import com.thoughtworks.gauge.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import pages.ProjectsPage;
+import static stepImpl.DriverFactory.driver;
 
 /**
  * Created by Osanda on 6/21/2017.
@@ -12,7 +13,6 @@ import pages.ProjectsPage;
 
 public class ProjectsStepImpl {
 
-    WebDriver driver;
     ProjectsPage projectsPage = PageFactory.initElements(driver, ProjectsPage.class);
     private static String projectName = System.getenv("PROJECT_NAME");
 

@@ -8694,3 +8694,284 @@ Total time taken: 40.621s
 10:29:07.695 
 Total time taken: 42.189s
 10:29:07.695 Updates are available. Run gauge --check-updates for more info.
+10:30:56.955 Checking updates...
+10:31:16.838 # Update time records Specification
+10:31:16.841 ## Update time records Scenario
+10:31:16.845 * Validate that the user login by using the valid email address and password
+10:31:16.845 * Navigate to login page
+10:31:21.112 * Login using the email and password
+10:31:21.924 * Adding a new task for the project
+10:31:21.924 * Expand projects section
+10:31:24.736 * Go to Project Tasks
+10:31:36.022 Failed Step: Go to Project Tasks
+10:31:36.022 Error Message: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\Osanda\AppData\Local\Temp\scoped_dir44672_30719}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f9544d354a0b855b9f0c4a55fac2a849
+*** Element info: {Using=xpath, value=//table/tbody/tr[td//text()[contains(., 'Kraydel')]]}
+10:31:36.022 Specification: specs\specifications\Update time records.spec
+10:31:36.022 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+pages.ProjectsPage.goToProjectTasks(ProjectsPage.java:36)
+stepImpl.ProjectsStepImpl.goToProjectTasks(ProjectsStepImpl.java:26)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:31:42.455 Error Message: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.02 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\Osanda\AppData\Local\Temp\scoped_dir44672_30719}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f9544d354a0b855b9f0c4a55fac2a849
+10:31:42.455 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)
+stepImpl.DriverFactory.TearDown(DriverFactory.java:50)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:31:42.665 Plugin [Html Report] with pid [32540] has exited
+10:31:44.226 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:31:44.226 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+10:31:44.226 
+Total time taken: 39.222s
+10:31:44.226 Updates are available. Run gauge --check-updates for more info.
+10:44:52.814 Checking updates...
+10:45:05.172 # Update time records Specification
+10:45:05.175 ## Update time records Scenario
+10:45:05.180 * Validate that the user login by using the valid email address and password
+10:45:05.180 * Navigate to login page
+10:45:09.069 * Login using the email and password
+10:45:09.839 * Adding a new task for the project
+10:45:09.839 * Expand projects section
+10:45:14.918 * Go to Project Tasks
+10:45:18.913 Failed Step: Go to Project Tasks
+10:45:18.914 Error Message: org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (891, 406). Other element would receive the click: <div class="section_button_wrapper brief_action_button">...</div>
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 131 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\Osanda\AppData\Local\Temp\scoped_dir1280_27756}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3c2f78c33dd24a1f7255d6e26d5fc1d6
+10:45:18.914 Specification: specs\specifications\Update time records.spec
+10:45:18.914 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+com.sun.proxy.$Proxy3.click(Unknown Source)
+pages.ProjectsPage.goToProjectTasks(ProjectsPage.java:39)
+stepImpl.ProjectsStepImpl.goToProjectTasks(ProjectsStepImpl.java:26)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:45:19.448 Plugin [Html Report] with pid [45400] has exited
+10:45:20.052 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:45:20.052 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+10:45:20.052 
+Total time taken: 21.987s
+10:45:20.052 Updates are available. Run gauge --check-updates for more info.
+10:46:13.832 Checking updates...
+10:46:38.569 # Update time records Specification
+10:46:38.574 ## Update time records Scenario
+10:46:38.580 * Validate that the user login by using the valid email address and password
+10:46:38.580 * Navigate to login page
+10:46:44.611 * Login using the email and password
+10:46:45.686 * Adding a new task for the project
+10:46:45.688 * Expand projects section
+10:46:50.521 * Go to Project Tasks
+10:46:54.494 
+Failed Step: Go to Project Tasks
+10:46:54.494 Specification: specs\specifications\Update time records.spec
+10:46:54.494 Error Message: org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (891, 406). Other element would receive the click: <div class="section_button_wrapper brief_action_button">...</div>
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 138 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\Osanda\AppData\Local\Temp\scoped_dir41468_2824}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 58ce9f3558ed2c93609fd1c135bf1856
+10:46:54.494 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+com.sun.proxy.$Proxy3.click(Unknown Source)
+pages.ProjectsPage.goToProjectTasks(ProjectsPage.java:39)
+stepImpl.ProjectsStepImpl.goToProjectTasks(ProjectsStepImpl.java:26)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:46:56.826 Plugin [Html Report] with pid [38324] has exited
+10:46:57.431 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:46:57.431 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+10:46:57.431 
+Total time taken: 28.091s
+10:46:57.431 Updates are available. Run gauge --check-updates for more info.
+11:04:10.207 Checking updates...
+11:04:28.883 # Update time records Specification
+11:04:28.885 ## Update time records Scenario
+11:04:28.890 * Validate that the user login by using the valid email address and password
+11:04:28.890 * Navigate to login page
+11:04:33.973 * Login using the email and password
+11:04:34.872 * Adding a new task for the project
+11:04:34.872 * Expand projects section
+11:04:39.621 * Go to Project Tasks
+11:04:58.990 
+Failed Step: Go to Project Tasks
+11:04:58.990 Specification: specs\specifications\Update time records.spec
+11:04:58.990 Error Message: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //a[@title='New Task']' (tried for 15 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\Osanda\AppData\Local\Temp\scoped_dir46864_8502}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: c7be919c89e9a464432c9fb2ccc73e81
+11:04:58.990 Stacktrace: 
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+pages.BasePage.waitForElementVisible(BasePage.java:30)
+pages.ProjectsPage.goToProjectTasks(ProjectsPage.java:42)
+stepImpl.ProjectsStepImpl.goToProjectTasks(ProjectsStepImpl.java:26)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:04:59.720 Plugin [Html Report] with pid [16236] has exited
+11:05:00.427 Specifications:	1 executed	0 passed	1 failed	0 skipped
+11:05:00.427 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+11:05:00.427 
+Total time taken: 39.305s
+11:05:00.427 Updates are available. Run gauge --check-updates for more info.
+12:04:29.969 Checking updates...
+12:04:49.005 # Update time records Specification
+12:04:49.009 ## Update time records Scenario
+12:04:49.013 * Validate that the user login by using the valid email address and password
+12:04:49.013 * Navigate to login page
+12:04:53.607 * Login using the email and password
+12:04:54.389 * Adding a new task for the project
+12:04:54.389 * Expand projects section
+12:04:59.035 * Go to Project Tasks
+12:05:06.861 * Create a new Task
+12:05:13.126 * Navigate to add time records for the task
+12:05:15.510 * Update time records for the date with worked hours and the summary from the following table <table: /resources/TimeRecords.csv>
+12:05:28.506 Plugin [Html Report] with pid [17316] has exited
+12:05:29.212 Specifications:	1 executed	1 passed	0 failed	0 skipped
+12:05:29.212 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12:05:29.212 
+Total time taken: 48.022s
+12:05:29.212 Updates are available. Run gauge --check-updates for more info.

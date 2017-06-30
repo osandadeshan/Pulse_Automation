@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import pages.TimeAndExpensesPage;
 import java.util.List;
+import static stepImpl.DriverFactory.driver;
 
 /**
  * Created by Osanda on 6/21/2017.
@@ -15,7 +16,6 @@ import java.util.List;
 
 public class TimeAndExpensesStepImpl {
 
-    WebDriver driver;
     TimeAndExpensesPage timeAndExpensesPage = PageFactory.initElements(driver, TimeAndExpensesPage.class);
     private static String taskName = System.getenv("TASK_NAME");
 

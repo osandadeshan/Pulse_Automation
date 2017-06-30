@@ -1,10 +1,13 @@
 package pages;
 
 import com.thoughtworks.gauge.Gauge;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import stepImpl.DriverFactory;
+
 import static stepImpl.DriverFactory.driver;
 
 /**
@@ -13,6 +16,12 @@ import static stepImpl.DriverFactory.driver;
 
 
 public class NewTaskPage extends BasePage {
+
+    private WebDriver driver = DriverFactory.driver;
+
+    public NewTaskPage() {
+        PageFactory.initElements(driver, this);
+    }
 
     @FindBy(xpath = "//a[@title='New Task']")
     WebElement NEW_TASK;
@@ -28,7 +37,6 @@ public class NewTaskPage extends BasePage {
     WebElement ADD_TASK_BUTTON;
 
     public void createNewTask(String title) {
-        PageFactory.initElements(driver, this);
         NEW_TASK.click();
         waitForElementClickable(TITLE);
         TITLE.sendKeys(title);
